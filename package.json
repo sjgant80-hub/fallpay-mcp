@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/fallpay-mcp",
+  "version": "1.0.0",
+  "description": "fallpay MCP server · stdio wrapper around @ai-native-solutions/fallpay-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "fallpay-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["fallpay", "mcp", "model-context-protocol", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallpay-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/fallpay-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
